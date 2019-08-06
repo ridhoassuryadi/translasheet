@@ -1,0 +1,2 @@
+# translasheet
+simplescript for translation
