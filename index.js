@@ -8,10 +8,14 @@ const spinner = ora('translation spreadsheet to json').start();
 // it assumes that generate file will be in src/i18n
 
 const ROOT_FIELD = 'id';
-const CREDENTIAL_SOURCE = './credential.json'
+
 const CONFIGURATION = require('./translation.json');
 const DEFAULT_OUTPUT_DIR = "./src/i18n/";
 
+require('dotenv').config();
+
+
+const CREDENTIAL_SOURCE = JSON.parse(process.env.GOOGLE_CREDENTIAL)
 // Error message for required directory
 const ERROR_MESSAGE_CONFIGURATION = {
     "spreadsheet-key": "spreadsheet id is required for source",
@@ -79,7 +83,7 @@ extractSheets(
     {
         spreadsheetKey: CONFIGURATION["spreadsheet-key"],
         // credentials
-        credentials: require(CREDENTIAL_SOURCE),
+        credentials: CREDENTIAL_SOURCE,
         sheetsToExtract: [CONFIGURATION["sheet-name"]],
     },
     (err, data) => {
