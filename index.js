@@ -11,7 +11,7 @@ const ROOT_FIELD = 'id';
 
 const CONFIGURATION = require('./translasheetrc.json');
 const DEFAULT_OUTPUT_DIR = "./src/i18n/";
-const DEFAULT_CREDENTIAL_SOURCE = './credential.json'
+const DEFAULT_CREDENTIAL_SOURCE = './key.json'
 
 
 const CREDENTIAL_KEY = CONFIGURATION["credential-key"] || DEFAULT_CREDENTIAL_SOURCE
