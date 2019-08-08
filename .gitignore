@@ -19,3 +19,4 @@ node_modules/
 # Credential Source
 credential.json
 .env
+translasheetrc.json
