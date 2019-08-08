@@ -1,5 +1,6 @@
 {
     "spreadsheet-key": "17ex2eG5FI2U9Ubn0bW-K_-TvW852xSkrzKCD1O4PUZc",
     "sheet-name": "web payment",
-    "output-dir": "./src/i18n/"
+    "output-dir": "./src/i18n/",
+    "credential-key": "./credential.json"
 }
