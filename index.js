@@ -4,15 +4,15 @@ const { extractSheets } = require("spreadsheet-to-json");
 const fs = require('fs');
 const ora = require('ora');
 const spinner = ora('translation spreadsheet to json').start();
-const appDir = require('app-root-path');
+const path = require("path")
 
 // it assumes that generate file will be in src/i18n
-
+console.log("prosesnya berjalan di ", process.cwd())
 const ROOT_FIELD = 'id';
 
-const CONFIGURATION = require(appDir + '/translasheetrc.json');
-const DEFAULT_OUTPUT_DIR = appDir + "/src/i18n/";
-const DEFAULT_CREDENTIAL_SOURCE = appDir + '/key.json'
+const CONFIGURATION = require('./translasheetrc.json');
+const DEFAULT_OUTPUT_DIR = "./src/i18n/";
+const DEFAULT_CREDENTIAL_SOURCE = './key.json'
 
 
 const CREDENTIAL_KEY = CONFIGURATION["credential-key"] || DEFAULT_CREDENTIAL_SOURCE
@@ -61,7 +61,7 @@ function detectAndAssign(rootValue, label, value) {
 function writeToJson(dicts) {
     Object.entries(dicts).forEach(
         ([key, value]) => {
-            let translations = JSON.stringify(dicts[key]["data"])
+            let translations = JSON.stringify(dicts[key]["data"], null, 2)
             fs.writeFileSync(OUTPUT_DIR + dicts[key]["label"] + ".json", translations)
         })
 
