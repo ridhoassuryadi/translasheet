@@ -7,15 +7,17 @@ const spinner = ora('translation spreadsheet to json').start();
 const path = require("path")
 
 // it assumes that generate file will be in src/i18n
-console.log("prosesnya berjalan di ", process.cwd())
+const PROJECT_DIRECTORY = process.cwd()
 const ROOT_FIELD = 'id';
+const CONFIG_NAME = 'translasheetrc.json'
 
-const CONFIGURATION = require('./translasheetrc.json');
-const DEFAULT_OUTPUT_DIR = "./src/i18n/";
-const DEFAULT_CREDENTIAL_SOURCE = './key.json'
+// Default for optional
+const DEFAULT_OUTPUT_DIR = "src/i18n/";
+const DEFAULT_CREDENTIAL_SOURCE = 'key.json'
 
 
-const CREDENTIAL_KEY = CONFIGURATION["credential-key"] || DEFAULT_CREDENTIAL_SOURCE
+const CONFIGURATION = require(path.join(PROJECT_DIRECTORY, CONFIG_NAME));
+const CREDENTIAL_KEY = path.join(PROJECT_DIRECTORY, CONFIGURATION["credential-key"] || DEFAULT_CREDENTIAL_SOURCE)
 
 // Error message for required directory
 const ERROR_MESSAGE_CONFIGURATION = {
@@ -23,7 +25,7 @@ const ERROR_MESSAGE_CONFIGURATION = {
     "sheet-name": "sheet name is required for list translation"
 }
 
-const OUTPUT_DIR = CONFIGURATION["output-dir"] || DEFAULT_OUTPUT_DIR;
+const OUTPUT_DIR = CONFIGURATION["output-dir"] || path.join(PROJECT_DIRECTORY, DEFAULT_OUTPUT_DIR);
 
 
 // Check configuration
@@ -36,6 +38,7 @@ Object.entries(ERROR_MESSAGE_CONFIGURATION).forEach(
         }
     })
 
+const SHEET_NAME = [].concat(CONFIGURATION["sheet-name"])
 
 
 
@@ -79,24 +82,30 @@ function parseSpreadSheet(spreadsheetData) {
     });
 }
 
+function mergeObject(target, source, key) {
+    return target.filter(aa => !source.find(bb => aa[key] === bb[key])).concat(source)
+};
+
 extractSheets(
     {
         spreadsheetKey: CONFIGURATION["spreadsheet-key"],
         // credentials
         credentials: require(CREDENTIAL_KEY),
-        sheetsToExtract: [CONFIGURATION["sheet-name"]],
+        sheetsToExtract: SHEET_NAME,
     },
     (err, data) => {
         if (err) {
             spinner.stop();
             console.log("ERROR:", err);
         }
-
-        parseSpreadSheet(data[CONFIGURATION["sheet-name"]]);
+        let allData = Object.values(data).reduce((x, y, z) => mergeObject(x, y, "id"))
+        parseSpreadSheet(allData);
         writeToJson(dictionary);
         spinner.stop()
         spinner.succeed("translation has been exported")
-        spinner.stop()
+        // spinner.stop()
     }
 );
+
+
 

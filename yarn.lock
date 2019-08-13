@@ -68,11 +68,6 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bluebird@^3.5.0:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
-  integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
-
 buffer-equal-constant-time@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
@@ -128,11 +123,6 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.9.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
-  integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
-
 core-util-is@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -144,6 +134,18 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+deep-merge@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/deep-merge/-/deep-merge-1.0.0.tgz#0906cc56c3a93099ae093fe995589eefe38a0e95"
+  integrity sha1-CQbMVsOpMJmuCT/plVie7+OKDpU=
+  dependencies:
+    xtend "~1.0.3"
+
+deepmerge@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.0.0.tgz#3e3110ca29205f120d7cb064960a39c3d2087c09"
+  integrity sha512-YZ1rOP5+kHor4hMAH+HRQnBQHg+wvS1un1hAOuIcxcBy0hzcUf6Jg2a1w65kpoOUnurOfZbERwjI1TfZxNjcww==
 
 defaults@^1.0.3:
   version "1.0.3"
@@ -248,16 +250,7 @@ google-p12-pem@^0.1.0:
   dependencies:
     node-forge "^0.7.1"
 
-google-spreadsheet-to-json@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/google-spreadsheet-to-json/-/google-spreadsheet-to-json-1.0.0.tgz#9f4c3d70d3981980b66d97c323205c4be6a98e47"
-  integrity sha1-n0w9cNOYGYC2bZfDIyBcS+apjkc=
-  dependencies:
-    bluebird "^3.5.0"
-    commander "^2.9.0"
-    google-spreadsheet "^2.0.3"
-
-google-spreadsheet@^2.0.3, google-spreadsheet@^2.0.5:
+google-spreadsheet@^2.0.5:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/google-spreadsheet/-/google-spreadsheet-2.0.7.tgz#e8b338e4bcad03458c5ff784d42d50ed021b56b8"
   integrity sha512-F7iLl9Zk4pPMnDxJ9PE4zbhkdAMk26Jg1X8OZqdtaIfD36ea4nOWh/mo4BULWS6+4TuiikOrldIc4aZAx7ek7w==
@@ -643,3 +636,8 @@ xmlbuilder@~9.0.1:
   version "9.0.7"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
   integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
+
+xtend@~1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/xtend/-/xtend-1.0.3.tgz#3f5d937353cced8e085399a563fdb22541c2960a"
+  integrity sha1-P12Tc1PM7Y4IU5mlY/2yJUHClgo=
