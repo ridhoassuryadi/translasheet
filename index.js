@@ -90,7 +90,7 @@ module.exports = (args) => {
 
     function ab2str(buf) {
         const encodedString = String.fromCharCode.apply(null, buf);
-        return decodeURIComponent(escape(encodedString));
+        return decodeURIComponent(encodedString);
     }
 
 
@@ -122,7 +122,13 @@ module.exports = (args) => {
         }
     }
 
-    https.get(SHEET_URL, (response) => {
+    const options = {
+        headers: {
+            'Content-Type': 'data:text/csv; charset=utf-8'
+        }
+    }
+
+    https.get(SHEET_URL, options, (response) => {
         let body = '';
 
         response
@@ -170,7 +176,7 @@ module.exports = (args) => {
                     bodyField.map((field, i) => {
 
                         if (translations.hasOwnProperty(i)) {
-                            translations[i].data.push({ id: bodyKey, message: field })
+                            translations[i].data.push({ id: bodyKey, message: decodeURIComponent(escape(field)) })
                         }
                     })
 
