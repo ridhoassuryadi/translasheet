@@ -1,0 +1,862 @@
+[
+  {
+    "id": "page.auth.signup.error.emailAlreadyExist",
+    "message": "Email đã được đăng ký"
+  },
+  {
+    "id": "page.auth.signup.error.phoneAlreadyExist",
+    "message": "Số điện thoại đã được đăng ký"
+  },
+  {
+    "id": "page.auth.signup.learningWithRuangguru",
+    "message": ""
+  },
+  {
+    "id": "page.auth.signup.minimumPassword",
+    "message": "Mật khẩu phải có ít nhất 6 ký tự"
+  },
+  {
+    "id": "page.auth.signup.error.system",
+    "message": "Đã có lỗi xảy ra trong hệ thống "
+  },
+  {
+    "id": "page.auth.signup.fullName",
+    "message": "Tên đầy đủ"
+  },
+  {
+    "id": "page.auth.signup.email",
+    "message": "Email"
+  },
+  {
+    "id": "page.auth.signup.phoneNumber",
+    "message": "Số điện thoại"
+  },
+  {
+    "id": "page.auth.signup.phoneCode",
+    "message": "\"+84\""
+  },
+  {
+    "id": "page.auth.signup.disclaimer",
+    "message": "Khi nhấn vào nút này, bạn đã đồng ý"
+  },
+  {
+    "id": "page.auth.signup.submit",
+    "message": "Đăng ký"
+  },
+  {
+    "id": "page.auth.signup.loading",
+    "message": "Đang tải"
+  },
+  {
+    "id": "page.auth.signup.orRegisterBy",
+    "message": "hoặc đăng ký bằng"
+  },
+  {
+    "id": "page.auth.signup.alreadyHaveAccount",
+    "message": "Bạn đã có tài khoản?"
+  },
+  {
+    "id": "page.auth.signup.loginHere",
+    "message": "Đăng nhập  tại đây"
+  },
+  {
+    "id": "page.auth.login.learninngWithRuangguru",
+    "message": "Hãy bắt đầu học thôi nào {{tên}}"
+  },
+  {
+    "id": "page.auth.login.email",
+    "message": "Email"
+  },
+  {
+    "id": "page.auth.login.password",
+    "message": "Mật khẩu"
+  },
+  {
+    "id": "page.auth.login.rememberMe",
+    "message": "Nhớ mật khẩu"
+  },
+  {
+    "id": "page.auth.login.forgetPassword",
+    "message": "Quên mật khẩu"
+  },
+  {
+    "id": "page.auth.login.startLearning",
+    "message": "Bắt đầu học"
+  },
+  {
+    "id": "page.auth.login.loading",
+    "message": "Đang tải"
+  },
+  {
+    "id": "page.auth.login.orLoginBy",
+    "message": "hoặc đăng nhập bằng"
+  },
+  {
+    "id": "page.auth.login.dontHaveAccountYet",
+    "message": "Không có tài khoản?"
+  },
+  {
+    "id": "page.auth.login.registerHere",
+    "message": "Đăng ký ở đây"
+  },
+  {
+    "id": "page.auth.login.emailRequired",
+    "message": ""
+  },
+  {
+    "id": "page.auth.login.emailNotValid",
+    "message": ""
+  },
+  {
+    "id": "page.auth.login.passwordRequired",
+    "message": ""
+  },
+  {
+    "id": "page.auth.socialLogin.registeringYouToTheApp",
+    "message": ""
+  },
+  {
+    "id": "page.auth.socialLogin.errorExternalServer",
+    "message": ""
+  },
+  {
+    "id": "page.auth.socialLogin.errorMainSystem",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.howToChangePassword",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.processingRequest",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.emailValidationError",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.otherErrorEmail",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.cancel",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.send",
+    "message": ""
+  },
+  {
+    "id": "page.auth.userData.checkTheData",
+    "message": ""
+  },
+  {
+    "id": "page.auth.userData.phoneAlreadyRegistered",
+    "message": ""
+  },
+  {
+    "id": "page.auth.userData.completeYourProfile",
+    "message": ""
+  },
+  {
+    "id": "page.topicExerciseMenu.chooseYourDifficultyFirst",
+    "message": ""
+  },
+  {
+    "id": "page.topicExerciseTest.endThePractice",
+    "message": ""
+  },
+  {
+    "id": "page.topicExericeTest.closeConfirmation",
+    "message": "Bạn có chắc là bạn muốn thoát khỏi Kiến Ham Học?"
+  },
+  {
+    "id": "page.topicExerciseTest.answerConfirmation",
+    "message": ""
+  },
+  {
+    "id": "page.topicExerciseContent.repeat",
+    "message": "Làm lại"
+  },
+  {
+    "id": "page.topicExerciseContent.confirmationModalTitle",
+    "message": ""
+  },
+  {
+    "id": "page.topicExerciseContent.confirmationInfo",
+    "message": ""
+  },
+  {
+    "id": "page.topicExerciseContent.confirmText",
+    "message": "Xem đáp án"
+  },
+  {
+    "id": "page.topicExerciseContent.cancelText",
+    "message": "Thoát"
+  },
+  {
+    "id": "page.topicExerciseContent.correct",
+    "message": "Đúng rồi"
+  },
+  {
+    "id": "page.topicExerciseContent.wrong",
+    "message": "Sai rồi"
+  },
+  {
+    "id": "page.topicExerciseContent.skipped",
+    "message": "Bỏ qua"
+  },
+  {
+    "id": "page.topicExerciseContent.processingTime",
+    "message": "Thời gian làm bài"
+  },
+  {
+    "id": "page.topicExerciseContent.reviewTopicHeader",
+    "message": ""
+  },
+  {
+    "id": "page.topicExerciseContent.reviewForbiddedTitle",
+    "message": ""
+  },
+  {
+    "id": "page.topicExerciseContent.reviewForbiddedInfo",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.home.progressBarText",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.home.chooseClass",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.home.lessonHeader",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.topic",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.mission",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.gradePlaceholderDropdown",
+    "message": ""
+  },
+  {
+    "id": "page.topic.modalDownloadInfo",
+    "message": "Ghi chú chỉ có thể được truy cập trên ứng dụng di động Kiến Guru. Hãy tải ngay thôi!"
+  },
+  {
+    "id": "page.journey.startLearning",
+    "message": ""
+  },
+  {
+    "id": "page.journey.missionDone",
+    "message": ""
+  },
+  {
+    "id": "page.journey.missionStart",
+    "message": ""
+  },
+  {
+    "id": "page.journey.missionContinue",
+    "message": ""
+  },
+  {
+    "id": "page.journey.lockedModalTitle",
+    "message": ""
+  },
+  {
+    "id": "page.journey.modalSubscriptionInfo",
+    "message": ""
+  },
+  {
+    "id": "page.journey.notificationConfirm",
+    "message": ""
+  },
+  {
+    "id": "page.journey.notificationDoneTitle",
+    "message": ""
+  },
+  {
+    "id": "page.journey.notificationInfo",
+    "message": ""
+  },
+  {
+    "id": "page.journey.finalSummary",
+    "message": ""
+  },
+  {
+    "id": "page.journey.downloading",
+    "message": ""
+  },
+  {
+    "id": "page.journey.downloadAll",
+    "message": ""
+  },
+  {
+    "id": "page.journey.noImageFound",
+    "message": ""
+  },
+  {
+    "id": "page.journey.summaryImage",
+    "message": ""
+  },
+  {
+    "id": "page.journey.startDownload",
+    "message": ""
+  },
+  {
+    "id": "page.journey.successDownload",
+    "message": ""
+  },
+  {
+    "id": "page.journey.errorDownload",
+    "message": ""
+  },
+  {
+    "id": "page.journey.openFile",
+    "message": ""
+  },
+  {
+    "id": "page.journey.processingExercise",
+    "message": ""
+  },
+  {
+    "id": "page.journey.maximumSessionModalHeader",
+    "message": ""
+  },
+  {
+    "id": "page.journey.removeDeviceSucceed",
+    "message": ""
+  },
+  {
+    "id": "page.journey.removeDeviceFailed",
+    "message": ""
+  },
+  {
+    "id": "page.journey.reloadJourney",
+    "message": ""
+  },
+  {
+    "id": "page.journey.continueJourney",
+    "message": ""
+  },
+  {
+    "id": "page.journey.contentNotfound",
+    "message": ""
+  },
+  {
+    "id": "page.journey.noQuestionFound",
+    "message": ""
+  },
+  {
+    "id": "page.journey.itemFound",
+    "message": ""
+  },
+  {
+    "id": "page.journey.levelUpWording",
+    "message": ""
+  },
+  {
+    "id": "page.journey.videoNextTitle",
+    "message": ""
+  },
+  {
+    "id": "page.journey.subscription",
+    "message": ""
+  },
+  {
+    "id": "page.journey.confirmationModalYes",
+    "message": ""
+  },
+  {
+    "id": "page.journey.confirmationModalNo",
+    "message": ""
+  },
+  {
+    "id": "page.notFound.notFoundTitle",
+    "message": ""
+  },
+  {
+    "id": "page.notFound.backButtonTitle",
+    "message": ""
+  },
+  {
+    "id": "modal.versionChecker.title",
+    "message": ""
+  },
+  {
+    "id": "modal.versionChecker.confirmationInfo",
+    "message": ""
+  },
+  {
+    "id": "modal.versionChecker.downloadNow",
+    "message": ""
+  },
+  {
+    "id": "uikit.networkToaster.onlineToast",
+    "message": ""
+  },
+  {
+    "id": "uikit.networkToaster.offlineToast",
+    "message": ""
+  },
+  {
+    "id": "uikit.placeholder.emptyClassContent",
+    "message": ""
+  },
+  {
+    "id": "uikit.placeholder.chooseClassFirst",
+    "message": ""
+  },
+  {
+    "id": "uikit.placeholder.failedTokenVideo",
+    "message": ""
+  },
+  {
+    "id": "uikit.placeholder.questionNotAvailable",
+    "message": ""
+  },
+  {
+    "id": "uikit.placeholder.topicNotAvailable",
+    "message": ""
+  },
+  {
+    "id": "uikit.placeholder.discussionNotAvailable",
+    "message": ""
+  },
+  {
+    "id": "uikit.networkError.connectionNotFound",
+    "message": ""
+  },
+  {
+    "id": "global.gamification.levelUp",
+    "message": ""
+  },
+  {
+    "id": "global.gamificaton.level",
+    "message": ""
+  },
+  {
+    "id": "global.close",
+    "message": ""
+  },
+  {
+    "id": "global.loginHere",
+    "message": ""
+  },
+  {
+    "id": "global.alreadyHaveAccount",
+    "message": ""
+  },
+  {
+    "id": "global.startLearning",
+    "message": ""
+  },
+  {
+    "id": "global.loading",
+    "message": ""
+  },
+  {
+    "id": "global.phoneCode",
+    "message": "\"+84\""
+  },
+  {
+    "id": "global.phoneNumber",
+    "message": ""
+  },
+  {
+    "id": "global.error.system",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.50100",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.50101",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.50102",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60100",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60101",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60102",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60103",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60104",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60105",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60107",
+    "message": "email không hợp lệ"
+  },
+  {
+    "id": "global.errorCode.60108",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60109",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60110",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60111",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.60112",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.68001",
+    "message": ""
+  },
+  {
+    "id": "global.errorcode.69001",
+    "message": ""
+  },
+  {
+    "id": "global.errorcode.69002",
+    "message": ""
+  },
+  {
+    "id": "global.errorcode.69003",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.99400",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.99401",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.99402",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.99404",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.3000",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.3001",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.default",
+    "message": ""
+  },
+  {
+    "id": "global.errorCode.418",
+    "message": ""
+  },
+  {
+    "id": "utils.validator.phoneNumberEmptyError",
+    "message": ""
+  },
+  {
+    "id": "utils.validator.phoneNumberPatternError",
+    "message": ""
+  },
+  {
+    "id": "utils.validator.phoneNumberLengthError",
+    "message": ""
+  },
+  {
+    "id": "page.auth.socialLogin.loginVia",
+    "message": ""
+  },
+  {
+    "id": "page.auth.socialLogin.loginYouToTheApps",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.enterEmail",
+    "message": ""
+  },
+  {
+    "id": "page.auth.forgotPassword.errorEmailValidity",
+    "message": ""
+  },
+  {
+    "id": "page.auth.signup.nameValidateError",
+    "message": ""
+  },
+  {
+    "id": "page.auth.signup.gradeValidateError",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.sidebar.failedPackage",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.sidebar.subscriptionText",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.sidebar.notYetSubscribed",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.sidebar.subscribeNow",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.sidebar.status",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.sidebar.signOut",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.sidebar.confirmSignOut",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.hi",
+    "message": ""
+  },
+  {
+    "id": "page.lesson.whatLearnToday",
+    "message": ""
+  },
+  {
+    "id": "uikit.dropdown.invalidSelection",
+    "message": ""
+  },
+  {
+    "id": "global.save",
+    "message": ""
+  },
+  {
+    "id": "global.gold",
+    "message": ""
+  },
+  {
+    "id": "global.cancel",
+    "message": ""
+  },
+  {
+    "id": "global.process",
+    "message": ""
+  },
+  {
+    "id": "global.next",
+    "message": ""
+  },
+  {
+    "id": "uikit.exercise.rightAnswer",
+    "message": ""
+  },
+  {
+    "id": "uikit.exercise.discussionQuestion",
+    "message": ""
+  },
+  {
+    "id": "uikit.exercise.yourAnswerIs",
+    "message": ""
+  },
+  {
+    "id": "uikit.exercise.previous",
+    "message": ""
+  },
+  {
+    "id": "uikit.exercise.next",
+    "message": ""
+  },
+  {
+    "id": "uikit.exercise.collect",
+    "message": ""
+  },
+  {
+    "id": "uikit.journey.imageOfSubtopic",
+    "message": ""
+  },
+  {
+    "id": "uikit.lesson.imageOfLessonItem",
+    "message": ""
+  },
+  {
+    "id": "uikit.notificationModal.ok",
+    "message": ""
+  },
+  {
+    "id": "uikit.networkError.internetError",
+    "message": ""
+  },
+  {
+    "id": "uikit.networkError.reload",
+    "message": ""
+  },
+  {
+    "id": "uikit.subtopic.imageOfSubtopicItem",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.easy",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.medium",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.hard",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.hots",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.viewResults",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.start",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.topicExercise",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.question",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.score",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.imageOfTopic",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.errorFetchingTopic",
+    "message": ""
+  },
+  {
+    "id": "uikit.topicExerciseMenu.imageOfLesson",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.failedProcessingToken",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.getTokenFailed",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.share",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.report",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.like",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.unlike",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.sendReport",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.others",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.tutorNotMaster",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.animationsNotMatch",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.submissionTooFast",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.soundUnclear",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.materialUnclear",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.notSatisfying",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.whyReportVideo",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.writeReasonOfReport",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.maxReportCharacter",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.reportSent",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.videoResolution",
+    "message": ""
+  },
+  {
+    "id": "uikit.videoPlayer.videoSpeed",
+    "message": ""
+  },
+  {
+    "id": "page.journey.gamificationPointCreator",
+    "message": ""
+  }
+]

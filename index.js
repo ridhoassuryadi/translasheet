@@ -122,13 +122,7 @@ module.exports = (args) => {
         }
     }
 
-    const options = {
-        headers: {
-            'Content-Type': 'data:text/csv; charset=utf-8'
-        }
-    }
-
-    https.get(SHEET_URL, options, (response) => {
+    https.get(SHEET_URL, (response) => {
         let body = '';
 
         response
