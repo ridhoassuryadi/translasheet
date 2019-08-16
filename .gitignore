@@ -20,3 +20,5 @@ node_modules/
 credential.json
 .env
 translasheetrc.json
+config.js
+index.old.js
